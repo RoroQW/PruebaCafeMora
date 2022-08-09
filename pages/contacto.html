@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+    
+</head>
+<nav class="navbar navbar-expand-sm navbar-dark bg-secondary fondo">
+    <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logomora1.PNG" alt="" width="150">
+            </a>
+
+        <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobrenosotros.html">Quienes Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sucursales</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+</nav>
+
+<section class="contactofondo">
+
+<main>
+
+        <h1 class="animate__animated animate__shakeX">Formulario de Contacto</h1>
+
+        <p class="parrafo2">Ahora podés dejarnos tu consulta por Whatsapp y te responderemos a la brevedad.</p>
+        <p class="parrafo2">También podés realizar tu reserva o tu pedido online!!</p>
+
+
+
+<form class= "form"   action="https://formspree.io/f/xwkygelk"
+method="POST">
+    <div class="form_container">
+
+    
+        <h2 class="form_title">Dejanos tu consulta y nos contacteremos a la brevedad!</h2>
+        <input type="text" class="form_input" placeholder="Nombre:" name="name">
+        <input type="email" class="form_input" placeholder="Email:" name="email">
+        <textarea class="form_input form_input--message" placeholder="Mensaje:" name="message"></textarea>
+        <input type="submit" value="Enviar" class="form_cta">
+
+    </div>
+
+</form>
+
+</section>
+<div>
+    <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/5491161808947?text=Hola!%20Estoy%20interesado%20en%20tu%20servicio'">
+</div>
+
+<footer class="text-center pt-5 pb-5 bg-secondary text-light">
+
+    <h4>Café Mora</h4>
+    <p>Café de especialidad</p>
+  
+    <p>© 2022</p>
+  </footer>
+  
+            
+</main>
+   
+</body>
+</html>
